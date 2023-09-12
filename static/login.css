@@ -1,0 +1,19 @@
+body{
+    background-color:#f9d484;
+}
+.page{
+    font-style: oblique;
+    color: #7b4d11;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    margin-bottom: 20px;
+}
+.page > input{
+    margin: 20px 0;
+    padding: 10px;
+    outline: 0;
+}

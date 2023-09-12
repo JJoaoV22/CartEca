@@ -1,0 +1,45 @@
+body{
+    background-color:#f9d484
+}
+
+.carta{
+    font-style: oblique;
+    color: #7b4d11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    flex-direction: column;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+
+.correio{
+    
+    font-style: oblique;
+    color: #7b4d11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    margin: 20px 20px;
+    
+}
+
+.mensagem{
+    
+    font-style:oblique;
+    color: #f3aa48;
+    width: 171px;
+    height: 100px;
+    text-align: left;
+    margin: 0px 0;
+    
+}
+.carta > input{
+    color:#030303;
+}
+.carta > textarea{
+    color:  #070707;
+}
