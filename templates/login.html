@@ -1,24 +1,23 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./static/login.css">
 </head>
 <body>
-    <div class = "page">
-        <form method="POST" class="formLogin">
-            <h1>Login</h1>
-            <p>Digite os seus dados de acesso no campo abaixo.</p>
-            <label for='nome'>Nome</label>
-            <input type="nome" placeholder="Digite seu nome" autofocus="true" id="nome" name="nome" />
-            <P></P>
-            <label for="password">Senha</label>
-            <input type="password" placeholder="Digite sua senha"  id="senha" name="senha"/>
-            <P></P>
-            <input type="submit" value="Acessar" class="btn" />
+    <div class="page">
+        <form method="POST" class="formLogin" action="/login"> 
+            <h1 class="head">Login</h1>
+            <p class="para">Digite os seus dados de acesso no campo abaixo:</p>
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite seu nome" autofocus="true" id="nome" name="nome" class="text1"/>
+            <p></p>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Digite sua senha" id="senha" name="senha" class="text2" />
+            <input type="submit" value="Acessar" class="btn-login" />
         </form>
     </div>  
-
 </body>
 </html>
