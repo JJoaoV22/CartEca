@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correio</title>
-    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/index.css">
 </head>
 <body>
-    <div class="correio">
-        <h1>Correio</h1>
+    <div class="page2">
+        <h1 class="head2">Correio</h1>
+        <p></p><p></p><p></p>
+        <form method="POST" action="/index"> 
+            <div class="page3">
+                <div class="page4">
+                    <p class="dest">Destinatário: <input type="text" name="destinatario" class="box1"></p>
+                    <p class="dat">Data: <input type="text" name="data" class="box2"></p>
+                    <p class="rem">Remetente: <input type="text" name="remetente" class="box3"></p> 
+                </div>
+                <p class="msn">Mensagem: <textarea name="mensagem" placeholder="Digite sua mensagem" class="box4"></textarea></p>
+                <input type="submit" value="Enviar" class="btn-send" />
+            </div>
+        </form>
     </div>
-    <div class="carta">
-        <form method="POST">
-                <p>Destinatário: <input type="text" placeholder="Digite o Destinatário"/></p>
-                <p>Data: <input type="text" placeholder="__/__/____"></p>
-                <p>Remetente: <input type="text" placeholder ="Digite o Remetente"></p> 
-                <p>Mensagem: <textarea class="mensagem" placeholder="Mensagem"></textarea></p>
-                <button type="button">Enviar</button>
-            </form>
-    </div>
-
-    
-
 </body>
 </html>
