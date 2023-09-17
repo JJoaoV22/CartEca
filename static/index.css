@@ -1,0 +1,126 @@
+body{
+    overflow: hidden;
+    background-size: cover ;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/542/515/non_2x/neon-light-gate-background-free-vector.jpg);
+}
+.page2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+    position: relative;
+    left: 300px;
+    height: 100px;
+    padding: 0px;
+    margin: 160px;
+    width: 600px;
+    top: 150px;
+    background-color: rgba(220, 220, 220, 0.714);
+}
+
+.page3{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    
+}
+
+.page4{
+    position: relative;
+    right: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head2{
+    position: relative;
+    top: 0px;
+    font-size: 60px;
+    margin: 80px;
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+    color: aliceblue;
+}
+
+.dest{
+    position: relative;
+    left: 650px;
+    font-size: 20px;
+    bottom: 97px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.dat{
+    position: relative;
+    left: 700px;
+    font-size: 20px;
+    bottom: 97px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.rem{
+    position: relative;
+    right: 380px;
+    font-size: 20px;
+    bottom: 100px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.box1{
+    position: relative;
+    width: 197px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.box2{
+    position: relative;
+    width: 197px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.box3{
+    position: relative;
+    width: 197px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.box4{
+    width: 1075px;
+    position: relative;
+    bottom: 130px;
+    height: 350px;
+    font-size: 20px;
+    text-decoration: underline;
+    right: 45px;
+    border-radius: 20px;
+}
+
+.btn-send{
+    position: relative;
+    bottom: 120px;
+    width: 180px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
