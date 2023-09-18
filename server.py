@@ -27,5 +27,8 @@ def carta():
         enviar(data, remetente, destinatario, corpo)
         return render_template("index.html")
 
+def lsldldls():
+    print("hahaha zuei o codigo de vcs")
+    
 if __name__ == "__main__":
     app.run(debug=True)
