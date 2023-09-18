@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from model import enviar
 
 app = Flask(__name__)
@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello_agendeca():
     return render_template("login.html")
 
-@app.route("/login", methods=["POST"])
+@app.route("/login", methods=["POST", "GET"])
 def login():
     if request.method == "POST":
         nome = request.form.get("nome")
@@ -17,18 +17,19 @@ def login():
         else:
             return "<h1>Senha ou Login inválidos</h1>"
 
-@app.route('/carta', methods=["POST"])
+@app.route('/carta', methods=["POST", "GET"])
 def carta():
     destinatario = request.form.get("destinatario")
     data = request.form.get("data")
-    corpo = request.form.get("corpo")
+    corpo = request.form.get("mensagem")
     remetente = request.form.get("remetente")
     if request.method == "POST":
         enviar(data, remetente, destinatario, corpo)
-        return render_template("index.html")
+
+    return render_template("index.html")
 
 def lsldldls():
-    print("hahaha zuei o codigo de vcs")
-    
+    print("hahaha zuei o codigo de vcxs")
+
 if __name__ == "__main__":
     app.run(debug=True)
